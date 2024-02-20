@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Importamos la biblioteca JQuery de JavaScript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--Importamos el archivo JavaScript de la biblioteca Moment.js para trabajar con horas y fechas más facilmente-->
+    <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+
+    <!--Importamos los estilos de nuestra página-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link id="theme" rel="stylesheet" href="css/green.css">
+
+    <title>Projecto con JavaScript</title>
+</head>
+
+<body>
+
+    <!--Inicio de selector de tema en el lateral-->
+    <div id="selector-theme">
+        <div id="to-green"></div>
+        <div id="to-red"></div>
+        <div id="to-blue"></div>
+    </div>
+    <!--Fin de selector de tema en el lateral-->
+
+    <!--Inicio del cuerpo de la página-->
+    <section id="global">
+        <header>
+            <div id="logo">
+                <h1>PROJECTO JS</h1>
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="reloj.html">RELOJ</a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+            <!--Inicio de la caja que va a contener el reloj-->
+            <div id="box">
+                <!--Cargamos el reloj desde el archivo JavaScript-->
+                <div id="reloj">
+
+                </div>                
+            </div>
+            <!--Fin de la caja que va a contener el reloj-->
+
+            <div class="clearfix"></div>
+        </section>
+
+    </section>
+    <!--Fin del cuerpo de la página-->
+
+    <!--Inicio del pie de página-->
+    <footer>
+        Ramírez Hernández Zaid Alberto
+    </footer>
+    <!--Fin del pie de página-->
+
+    <!--Botón para ir al inicio de la página-->
+    <div id="subir">^</div>
+
+    <!--Scripts que vamos a utilizar en la página-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
